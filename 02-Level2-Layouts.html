@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>02-Level2-Layout</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script></head>
+</head>
+<body>
+  <div class="p-2 bg-slate-300">
+    <h1>Flexbox</h1>
+    <div class="flex">
+      <section class="bg-blue-100 grow-1">
+        <span>My Side Bar</span>
+      </section>
+      <section class="bg-red-300 grow-1">
+        My Content
+      </section>
+    </div>
+  </div>
+
+  <div>
+    <h1>Grid</h1>
+    <div class="grid grid-cols-1 gap-2 sm:grid-cols-2  lg:grid-cols-4">
+      <h1 class="bg-slate-300">col1</h1>
+      <h1 class="bg-red-200">col2</h1>
+      <h1 class="bg-slate-300">col3</h1>
+      <h1 class="bg-slate-200">col4</h1>
+    </div>
+  </div>
+
+  <div class="bg-green-50 p-2 mt-5">
+    <h1>Positioning</h1>
+    <div class="relative">
+      <h1 class="p-5 outline outline-2 outline-blue-400 rounded-lg">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam tenetur quae nemo qui ullam quisquam id illo atque est laudantium.</h1>
+      <span class="absolute top-2 right-2 bg-blue-300 shadow-lg p-2 rounded-lg text-white">my badge</span>
+    </div>
+  </div>
+
+  <div class="mt-2 bg-yellow-100 p-2">
+    <h1 class="bg-white">Responsive Design</h1>
+    <div class="text-center md:text-left md:flex ">
+      <p class="flex-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, itaque.</p>
+      <img class="flex-1" src="/photo.jpg" alt="photo">
+    </div>
+  </div>
+
+  <div class="mt-2 bg-blue p-5">
+    <button 
+      class="transition duration-300 hover:scale-105
+             p-5 bg-slate-400 rounded-lg shadow-sm
+             hover:shadow-md active:scale-85
+             "
+    >
+      Click Me
+    </button>
+  </div>
+</body>
+</html>

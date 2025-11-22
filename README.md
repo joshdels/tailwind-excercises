@@ -114,7 +114,6 @@ flex-col absolute left-0 top-16
 Challenge:
 Use different paddings for each breakpoint
 p-2 sm:p-4 md:p-6 lg:p-10
-
 17. Extract Components Using @apply
 Create a reusable button class:
 .btn-primary {
